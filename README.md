@@ -6,7 +6,7 @@ This project was created to practice JavaScript fundamentals such as DOM manipul
 
 ## 🎮 Live Demo
 
-[Play Tic Tac Toe]( <a href="https://raveekr.github.io/TicTakToe/" target="_blank">Play Tic Tac Toe</a>)
+[Play Tic Tac Toe]( https://raveekr.github.io/TicTakToe/)
 
 
 ## 📸 Preview
