@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-color: lightblue;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#heading {
+    /* margin-top: 30px; */
+    padding-bottom: 15px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+#new-game {
+       padding: 9px 13px;
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+     transition: scale 0.2s ease;
+}
+#new-game:active{
+    scale: 0.9;
+}
+#msg{
+    padding-bottom: 20px ;
+    color: red;
+    font-family: cursive;
+    font-size: 30px;
+}
+
+#reset {
+    padding: 7px 13px;
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+      transition: scale 0.2s ease;
+}
+#reset:active{
+    scale: 0.9;
+   
+}
+
+.hidden {
+    display: none !important;
+}
+
+.container {
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    flex-direction: column;
+    /* border: 2px solid green; */
+}
+
+.game {
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+
+}
+.opacity{
+    opacity: 0.3;
+}
+
+.box {
+    height: 7rem;
+    width: 7rem;
+    font-size: 4rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: rosybrown;
+    color: black;
+}
+
+
+@media screen and (max-width: 460px) {
+    body {
+        align-items: start;
+    }
+
+    .container {
+        justify-content: start;
+        padding-top: 30px;
+    }
+
+    #heading {
+        padding-bottom: 10px;
+        font-size: 30px;
+    }
+    #msg{
+        font-size: 40px;
+    }
+
+    #new-game {
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+
+    #reset {
+        margin-top: 40px;
+    }
+
+    .box {
+        height: 6rem;
+        width: 6rem;
+    }
+    .game{
+      border: 4px dashed red;
+    
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .box {
+        height: 5rem;
+        width: 5rem;
+    }
+}
