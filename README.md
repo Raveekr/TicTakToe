@@ -52,7 +52,4 @@ While building this project, I practiced:
 <img width="960" height="442" alt="preview" src="https://github.com/user-attachments/assets/22220e55-094b-4571-ba10-cbb60051d02d" />
 
 
-
-
-<img width="1920" height="894" alt="image" src="https://github.com/user-attachments/assets/52faf14e-590f-4413-a144-16c3c5aa6535" />
 <img width="360" height="512" alt="Tic Tac Toe mobile" src="https://github.com/user-attachments/assets/62509611-a805-4020-8131-311fa7d46d4b" />
