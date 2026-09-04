@@ -63,24 +63,26 @@ boxes.forEach((box) => {
     box.addEventListener("click", () => {
         if (turn0) {
             box.innerText = "O"
-            turn0 = false
             box.style.color = "yellow"
+            turn0 = false
         }
         else {
             box.innerText = "X"
-            turn0 = true
             box.style.color = "Lightgreen"
+            turn0 = true
         }
-        // getWinner()
+          box.disabled = true
+    
         count ++
         
         let iswinner = getWinner()
         if(count === 9 && !iswinner){
-           draw()
-           removeGame()
+            draw()
+            removeGame()
         }
-      
+        
     })
+  
 })
 
 let getWinner = () => {
